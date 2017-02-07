@@ -26,3 +26,5 @@ Due to the nature of methods related to Reddit flairs, this script may take a bi
 because it has to manually loop through each user that has selected a flair. At the time of writing this (Feb 6, 2017), the included
 `flaircount.json` example was ran against r/GlobalOffensive and took roughly 7-8 minutes to complete, with a total of 97,354 users having
 a flair selected out of a total subscriber count of 464,511. Don't be alarmed if you don't see anything progress right away.
+
+Once the script completes, it will dump all of the stats to a JSON file in the same folder as the script itself named `flaircount.json`.
