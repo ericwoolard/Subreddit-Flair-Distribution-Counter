@@ -1,0 +1,479 @@
+/* This is an example of the JSON dump upon completion of the script.
+   For this example, I ran it against the GlobalOffensive subreddit
+   which I am currently a moderator of. Ran on February 6, 2017.
+*/
+
+[
+    [
+        "fan cloud9",
+        11522
+    ],
+    [
+        "fan nip",
+        9334
+    ],
+    [
+        "fan vp",
+        5719
+    ],
+    [
+        "fan fnatic",
+        5610
+    ],
+    [
+        "fan liquid",
+        5207
+    ],
+    [
+        "fan astralis",
+        4231
+    ],
+    [
+        "fan navi",
+        3861
+    ],
+    [
+        "fan ibp",
+        3419
+    ],
+    [
+        "fan optic",
+        3112
+    ],
+    [
+        "fan envyus",
+        3066
+    ],
+    [
+        "fan faze",
+        2909
+    ],
+    [
+        "fan sk",
+        2866
+    ],
+    [
+        "fan g2",
+        2676
+    ],
+    [
+        "pin 5years",
+        2241
+    ],
+    [
+        "fan tsm",
+        1981
+    ],
+    [
+        "fan renegades",
+        1909
+    ],
+    [
+        "fan msports",
+        1758
+    ],
+    [
+        "fan luminosity",
+        1504
+    ],
+    [
+        "fan clg",
+        1347
+    ],
+    [
+        "pin guardianelite",
+        1308
+    ],
+    [
+        "pin valeria",
+        1153
+    ],
+    [
+        "pin dust2",
+        997
+    ],
+    [
+        "fan godsent",
+        983
+    ],
+    [
+        "fan titan",
+        899
+    ],
+    [
+        "pin inferno",
+        894
+    ],
+    [
+        "pin guardian",
+        808
+    ],
+    [
+        "fan north",
+        789
+    ],
+    [
+        "temp tada",
+        756
+    ],
+    [
+        "pin cache",
+        709
+    ],
+    [
+        "fan vox",
+        702
+    ],
+    [
+        "fan kinguin",
+        695
+    ],
+    [
+        null,
+        687
+    ],
+    [
+        "pin mirage",
+        650
+    ],
+    [
+        "fan gambit",
+        640
+    ],
+    [
+        "pin nuke",
+        555
+    ],
+    [
+        "fan vg",
+        513
+    ],
+    [
+        "pin victory",
+        443
+    ],
+    [
+        "fan dig",
+        441
+    ],
+    [
+        "fan lgb",
+        434
+    ],
+    [
+        "pin guardian2",
+        420
+    ],
+    [
+        "pin bravo",
+        391
+    ],
+    [
+        "pin office",
+        376
+    ],
+    [
+        "fan f3",
+        372
+    ],
+    [
+        "pin cobblestone",
+        370
+    ],
+    [
+        "fan col",
+        346
+    ],
+    [
+        "fan splyce",
+        346
+    ],
+    [
+        "fan 3dmax",
+        339
+    ],
+    [
+        "pin phoenix",
+        326
+    ],
+    [
+        "fan penta",
+        301
+    ],
+    [
+        "fan ldlc",
+        267
+    ],
+    [
+        "pin tactics",
+        266
+    ],
+    [
+        "pin overpass",
+        266
+    ],
+    [
+        "fan lc",
+        251
+    ],
+    [
+        "fan hr",
+        250
+    ],
+    [
+        "pin militia",
+        191
+    ],
+    [
+        "fan bravado",
+        183
+    ],
+    [
+        "pin train",
+        178
+    ],
+    [
+        "fan ad",
+        176
+    ],
+    [
+        "pin italy",
+        174
+    ],
+    [
+        "pin baggage",
+        168
+    ],
+    [
+        "pin bloodhound",
+        151
+    ],
+    [
+        "pin chroma",
+        140
+    ],
+    [
+        "fan cphwolves",
+        137
+    ],
+    [
+        "fan reason",
+        130
+    ],
+    [
+        "fan immunity",
+        130
+    ],
+    [
+        "fan epsilon",
+        122
+    ],
+    [
+        "fan keyd",
+        120
+    ],
+    [
+        "official verified",
+        116
+    ],
+    [
+        "fan cm",
+        109
+    ],
+    [
+        "fan nfaculty",
+        106
+    ],
+    [
+        "fan dat",
+        88
+    ],
+    [
+        "fan vexed",
+        88
+    ],
+    [
+        "fan wolf",
+        80
+    ],
+    [
+        "fan pkd",
+        75
+    ],
+    [
+        "fan fan cm",
+        74
+    ],
+    [
+        "fan recursive",
+        60
+    ],
+    [
+        "fan us",
+        50
+    ],
+    [
+        "fan esc",
+        45
+    ],
+    [
+        "fan myxmg",
+        32
+    ],
+    [
+        "fan xapso",
+        20
+    ],
+    [
+        "official valve",
+        19
+    ],
+    [
+        "fan ebettle",
+        16
+    ],
+    [
+        "modtext",
+        14
+    ],
+    [
+        "league esl",
+        13
+    ],
+    [
+        "rank chicken",
+        13
+    ],
+    [
+        "rank exlife",
+        11
+    ],
+    [
+        "league esea",
+        8
+    ],
+    [
+        "official splyce",
+        8
+    ],
+    [
+        "rank banner",
+        8
+    ],
+    [
+        "official liquid",
+        7
+    ],
+    [
+        "league faceit",
+        7
+    ],
+    [
+        "official cloud9",
+        6
+    ],
+    [
+        "official nip",
+        6
+    ],
+    [
+        "mod",
+        5
+    ],
+    [
+        "verified official",
+        5
+    ],
+    [
+        "official astralis",
+        5
+    ],
+    [
+        "faceit league",
+        4
+    ],
+    [
+        "official fnatic",
+        4
+    ],
+    [
+        "league cevo",
+        4
+    ],
+    [
+        "official g2",
+        4
+    ],
+    [
+        "official flipside",
+        3
+    ],
+    [
+        "league gfinity",
+        3
+    ],
+    [
+        "official north",
+        3
+    ],
+    [
+        "official penta",
+        3
+    ],
+    [
+        "official envyus",
+        2
+    ],
+    [
+        "league pgl",
+        2
+    ],
+    [
+        "official navi",
+        2
+    ],
+    [
+        "mlg league",
+        1
+    ],
+    [
+        "official irc",
+        1
+    ],
+    [
+        "rank dunk",
+        1
+    ],
+    [
+        "rank silver-1",
+        1
+    ],
+    [
+        "rank global-elite",
+        1
+    ],
+    [
+        "rank gold-nova-master",
+        1
+    ],
+    [
+        "rank master-guardian-2",
+        1
+    ],
+    [
+        "rank gold-nova-1",
+        1
+    ],
+    [
+        "modtrial",
+        1
+    ],
+    [
+        "official clg",
+        1
+    ],
+    [
+        "official valve ",
+        1
+    ]
+]
