@@ -8,8 +8,9 @@ How to use
 ----------
 1. Place the script in a new folder by itself. 
 2. Edit lines 6, 7, 8, 10 and 13 with your Client-ID, Client Secret, password, username and subreddit name, respectively.
-3. Start the script from the location that you saved the script to, with `python main.py`.
-*TIP* - As a shortcut on Windows, you can open the folder containing the script and SHIFT + Right Click in the empty space,
+3. Start the script from the location that you saved the script to, by entering `python main.py` in CMD.
+
+**TIP** - As a shortcut on Windows, you can open the folder containing the script and SHIFT + Right Click in the empty space,
 then choose "Open command window here" if you don't want to have to CD to the correct directory, or if you're unsure how. 
 Then, complete step #3.
 
