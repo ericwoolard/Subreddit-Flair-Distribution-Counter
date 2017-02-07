@@ -5,9 +5,9 @@ import json
 
 r = praw.Reddit(client_id='CLIENT_ID', 
                 client_secret='CLIENT_SECRET',
-				password='PASSWORD',
+			    password='PASSWORD',
                 user_agent='subreddit flair distribution counter by /u/zebradolphin5',
-				username='USER',
+			    username='USER',
 				)
 #r.login(user, passw, disable_warning=True)
 subreddit = r.subreddit("SUBREDDIT_NAME")
