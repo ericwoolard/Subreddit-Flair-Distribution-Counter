@@ -6,8 +6,8 @@ REQUIREMENTS
 
 How to use
 ----------
-1. Place the script in a new folder by itself. 
-2. Edit lines 6, 7, 8, 10 and 13 with your Client-ID, Client Secret, password, username and subreddit name, respectively.
+1. Place the script and cfg file in a new folder by itself.
+2. Edit lines 3-7 of the cfg file with your Client-ID, Client Secret, password, username and subreddit name, respectively.
 3. Start the script from the location that you saved the script to, by entering `python main.py` in CMD.
 
 **TIP** - As a shortcut on Windows, you can open the folder containing the script and SHIFT + Right Click in the empty space,
@@ -27,4 +27,7 @@ because it has to manually loop through each user that has selected a flair. At 
 `flaircount.json` example was ran against r/GlobalOffensive and took roughly 7-8 minutes to complete, with a total of 97,354 users having
 a flair selected out of a total subscriber count of 464,511. Don't be alarmed if you don't see anything progress right away.
 
-Once the script completes, it will dump all of the stats to a JSON file in the same folder as the script itself named `flaircount.json`.
+You can receive more verbose output by changing line 22 of the cfg file from "INFO" to "DEBUG".
+
+Once the script completes, it will dump all of the stats to a JSON file in the same folder as the script itself named
+`flaircount.json`. You can configure this filename on line 22 of the cfg file.
