@@ -1,10 +1,13 @@
 import praw
+import praw.exceptions
+import prawcore.exceptions
 import io
 import json
 import logging.config
 import configparser
 import os
 import sys
+import time
 
 
 config = configparser.ConfigParser()
@@ -22,8 +25,25 @@ while True:
                         password=config['reddit']['password'])
         logging.info('Logged in as {0}.'.format(r.user.me()))
         break
+    except prawcore.OAuthException as e:
+        logging.error('OAuth Error: {0}'.format(e.description))
+        logging.info('If you received an \'invalid_grant\' error, make sure the user and pass are correct \n'
+                     'and that they are the same as the account you registered the script with.')
+        logging.info('Retrying in 20 seconds, or CTRL+C to stop the script...')
+        time.sleep(20)
+    except KeyboardInterrupt:
+        logging.info('Shutting down due to keyboard interrupt.')
+        exit()
+    except prawcore.exceptions.ResponseException as e:
+        if e.response.status_code == 401:
+            logging.error('HTTP 401: Ensure authentication credentials are configured \n'
+                          'in Subreddit-Flair-Distribution-Counter.cfg')
+        else:
+            logging.error('Error: {0}'.format(e))
+        exit()
     except Exception as e:
-        logging.error('ERROR: {0}'.format(e))
+        logging.error('Error: {0}'.format(e))
+        exit()
 
 subreddit = r.subreddit(config['reddit']['subreddit'])
 
