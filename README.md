@@ -1,8 +1,9 @@
 REQUIREMENTS
 ------------
 1. Python 3
-2. Reddit account with Moderator privileges for a particular subreddit
-3. Client ID and Secret to supply with the script
+2. [Praw 4.x](https://praw.readthedocs.io/en/latest/)
+3. Reddit account with Moderator privileges for a particular subreddit
+4. Client ID and Secret to supply with the script
 
 How to use
 ----------
