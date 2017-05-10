@@ -2,15 +2,15 @@ REQUIREMENTS
 ------------
 1. Python 3
 2. [Praw 4.x](https://praw.readthedocs.io/en/latest/)
-3. Reddit account with Moderator privileges for a particular subreddit
+3. Reddit account with Moderator privileges for a subreddit
 4. Client ID and Secret to supply with the script
 
 How to use
 ----------
 1. Place the script and cfg file in a new folder by itself.
 2. Edit lines 3-7 of the cfg file with your Client-ID, Client Secret, password, username and subreddit name, respectively.
-3. Start the script by entering `python main.py` in CMD. 
-**Note** - you will need to `cd` (change directory) into the directory where the script is saved first. See the tip below if you don't know how to do this.
+3. Start the script *from within the folder you saved it to* by entering `python main.py` in CMD. 
+**Note** - From your command prompt, you will need to `cd` (Change Directory command) into the directory where the script is saved. See the tip below if you don't know how to do this.
 
 **TIP** - As a shortcut on Windows, you can open the folder containing the script and SHIFT + Right Click in the empty space,
 then choose "Open command window here" if you don't want to have to CD to the correct directory, or if you're unsure how. 
