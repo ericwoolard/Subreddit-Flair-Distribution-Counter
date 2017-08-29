@@ -8,7 +8,7 @@ REQUIREMENTS
 How to use
 ----------
 1. Place the script and cfg file in a new folder by itself.
-2. Edit lines 3-7 of the cfg file with your Client-ID, Client Secret, password, username and subreddit name, respectively.
+2. Edit lines 3-7 of the cfg file with your Client-ID, Client Secret, password, username and subreddit name, respectively (**DON'T** wrap these credentials in quotes like a typical string).
 3. Start the script *from within the folder you saved it to* by entering `python main.py` in CMD. 
 **Note** - From your command prompt, you will need to `cd` (Change Directory command) into the directory where the script is saved. See the tip below if you don't know how to do this.
 
