@@ -37,10 +37,13 @@ Once the script completes, it will dump all of the stats to a JSON file in the s
 Common Errors
 ---------------
 If you have both Python 2 and 3 installed on your system and receive errors when starting the script with `python main.py`, 
-run the script with `python3 main.py` instead. This can be the case if you only have one environment variable set for python 
-on your system (pointing to python 2), but have both versions installed. If you have to do it this way, you'll also need to 
-make sure you actually installed praw for python3 instead of 2. You can check which version its tied to with `pip show praw`.
-If it got tossed in with python2, install it for python3 with `pip3 install praw`.
+run the script with `python3 main.py` instead. If you have to do it this way, you'll also need to make sure you installed
+PRAW for Python 3 instead of 2. You can check which version it's tied to with `pip show praw`. If it was installed for 
+Python 2, install it for Python 3 with `pip3 install praw`.
+
+To check which version of Python is being used when running `python` in CMD, run `python -V`. Similarly, you can verify
+that Python 3 is installed correctly and using the correct version with `python3 -V`. If you only have one version of Python
+installed, this won't apply to you. 
 
 **HTTP 401 error (unauthorized)** - 
   * This typically means there's an issue with the Client-ID you supplied. When you go to preferences>apps and click 'edit' 
