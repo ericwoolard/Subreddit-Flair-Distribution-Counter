@@ -31,8 +31,8 @@ a flair selected out of a total subscriber count of 464,511. Don't be alarmed if
 
 You can receive more verbose output by changing line 22 of the cfg file from "INFO" to "DEBUG".
 
-Once the script completes, it will dump all of the stats to a JSON file in the same folder as the script itself named
-`flaircount.json`. You can configure this filename on line 22 of the cfg file.
+Once the script completes, it will dump all of the stats to both a JSON file and a CSV file in the same folder as the script itself, and
+will name them `flaircount.json` and `flaircount.csv` respectively. You can configure either filename from lines 10 & 11 of the cfg file.
 
 Common Errors
 ---------------
