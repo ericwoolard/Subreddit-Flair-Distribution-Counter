@@ -1,13 +1,9 @@
+# System imports
+import csv, io, os, sys, json, time, logging.config, configparser
+# Third party imports
 import praw
 import praw.exceptions
 import prawcore.exceptions
-import io
-import json
-import logging.config
-import configparser
-import os
-import sys
-import time
 
 
 config = configparser.ConfigParser()
@@ -15,6 +11,8 @@ configfile_path = os.path.abspath(os.path.dirname(sys.argv[0]))
 configfile_path = os.path.join(configfile_path, 'Subreddit-Flair-Distribution-Counter.cfg')
 config.read(configfile_path)
 logging.config.fileConfig(configfile_path)
+
+start_time = time.time()
 
 while True:
     try:
@@ -62,6 +60,19 @@ for flair in subreddit.flair(limit=None):
 logging.info('Sorting flairs...')
 sorted_flairs = sorted(flairs.items(), key=lambda x: x[1], reverse=True)
 logging.info('Writing flairs...')
+
 with io.open(config['output']['filename'], 'w+', encoding='utf-8') as f:
     f.write(str(json.dumps(sorted_flairs, ensure_ascii=False, indent=4, separators=(',', ': '))))
+
+# Write out a CSV copy for easier spreadsheet use
+writer = csv.writer(open(config['output']['filenamecsv'], 'w', newline='\n', encoding='utf-8'))
+string_list = str(json.dumps(sorted_flairs, ensure_ascii=False, indent=4, separators=(',', ': ')))
+statsJson = json.loads(string_list)
+for flair, num in statsJson:
+    if flair is None:
+        flair = 'Null'
+    writer.writerow([flair, num])
+
+elapsed_time = str(round(time.time() - start_time, 2))
 logging.info('Done!')
+logging.info('Completed in {}'.format(elapsed_time))
